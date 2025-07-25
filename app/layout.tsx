@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   authors: [{ name: '123Movies' }],
   creator: '123Moviesflix',
   publisher: '123Moviesflix',
+  robots: {
+    index: true,
+    follow: true,
+  },
   metadataBase: new URL('https://123moviesflix.info'),
   alternates: {
     canonical: '/',
