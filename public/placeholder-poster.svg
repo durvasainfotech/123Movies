@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="750" viewBox="0 0 500 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="750" fill="#1F2937"/>
+  <path d="M150 300L250 200L350 300H150Z" fill="#4B5563" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="200" y="350" width="100" height="20" rx="4" fill="#4B5563"/>
+  <rect x="150" y="400" width="200" height="10" rx="2" fill="#4B5563"/>
+  <rect x="150" y="420" width="180" height="10" rx="2" fill="#4B5563"/>
+  <rect x="150" y="440" width="160" height="10" rx="2" fill="#4B5563"/>
+  <text x="250" y="550" font-family="Arial" font-size="16" fill="#9CA3AF" text-anchor="middle">No poster available</text>
+</svg>
