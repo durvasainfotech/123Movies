@@ -18,7 +18,6 @@ export async function GET() {
     // Test with The Dark Knight movie ID
     const response = await fetch(
       `https://api.themoviedb.org/3/movie/155?api_key=${TMDB_API_KEY}`,
-      { next: { revalidate: 3600 } } // Cache for 1 hour
     );
     
     if (!response.ok) {

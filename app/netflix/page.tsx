@@ -94,8 +94,7 @@ export default function NetflixPage() {
           headers: {
             'x-rapidapi-key': process.env.NEXT_PUBLIC_RAPIDAPI_KEY || '',
             'x-rapidapi-host': 'streaming-availability.p.rapidapi.com'
-          },
-          next: { revalidate: 3600 } // Cache for 1 hour
+          }
         }
       );
       

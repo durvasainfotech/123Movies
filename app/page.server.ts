@@ -23,9 +23,7 @@ export async function getStaticProps() {
           topRated: topRated,
           upcoming: upcoming
         })
-      },
-      // Revalidate every 24 hours
-      revalidate: 86400
+      }
     };
   } catch (error) {
     console.error('Error in getStaticProps:', error);

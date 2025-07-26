@@ -7,8 +7,6 @@ import {
   getOnTheAirTVShows
 } from '../../lib/tmdb';
 
-export const revalidate = 3600; // Revalidate every hour
-
 interface SectionProps {
   title: string;
   endpoint: () => Promise<{ results: any[] }>;

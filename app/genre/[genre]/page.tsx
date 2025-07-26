@@ -38,8 +38,6 @@ interface GenreInfo {
   type: 'movie' | 'tv';
 }
 
-export const revalidate = 3600; // Revalidate every hour
-
 export default function GenrePage({ params }: GenrePageProps) {
   const router = useRouter();
   const pathname = usePathname();

@@ -38,6 +38,3 @@ export default async function HomePage() {
     }} />;
   }
 }
-
-// This tells Next.js to revalidate this page every 24 hours
-export const revalidate = 86400;
